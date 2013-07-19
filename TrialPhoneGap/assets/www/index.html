@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>PhoneGap</title>
+  <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
+ <script type="text/javascript">
+  function cancel() {
+	alert(document.getElementById('name1').value);
+};
+
+function redirect()
+{
+  window.location = "Page1.html";
+
+};
+</script>
+ </head>
+ <body bgcolor="green">
+    <marquee><h1>WebXpress</h1></marquee>
+    <input id="name1"/>
+    <input type="button" value="Submit" id="submit"  onclick="cancel()">
+  <input type="button" value="Next Page" id="submit"  onclick="redirect()">
+ </body>
+</html>
